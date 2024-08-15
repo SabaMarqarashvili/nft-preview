@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #0d192c;
+  font-family: "Outfit", sans-serif;
+  color: #8bacd9;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #15263f;
+  width: 350px;
+  padding: 24px 24px 32px;
+  border-radius: 15px;
+}
+
+.eq-img {
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.basic-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.basic-info div {
+  display: flex;
+  align-items: center;
+}
+
+.eth-price img {
+  margin-right: 6.48px;
+  width: 13px;
+  height: 18px;
+}
+
+.clock img {
+  margin-right: 6.48px;
+  width: 13px;
+}
+
+hr {
+  border: 1px solid #2e405a;
+}
+
+.author-info {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 33px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+
+.name {
+  color: #fff;
+}
+
+.eth {
+  font-weight: 600;
+  color: #00fff8;
+}
+
+.name:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
+
+.header:hover {
+  color: #00fff8;
+  cursor: pointer;
+}
